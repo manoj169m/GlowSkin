@@ -24,10 +24,10 @@ export default function Appointment() {
   };
 
   return (
-    <div className="container-fluid py-4 mt-3" style={{backgroundColor:'#fff0f0'}} data-aos='fade-up' id='bookappoinment'>
+    <div className="container-fluid py-5" style={{backgroundColor:'#fff0f0' ,minHeight: '100vh'}} data-aos='fade-up' id='bookappoinment'>
       <div className="card border-0 shadow-sm mx-auto" style={{ maxWidth: '1000px' }}>
         <div className="card-header bg-danger text-white text-center">
-          <h5 className="mb-1">Book Appointment</h5>
+          <h5 className="mb-1 p-2">Book Appointment</h5>
         </div>
         <div className="card-body">
           <form onSubmit={handleSubmit}>

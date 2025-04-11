@@ -206,7 +206,12 @@ export default function FAQ() {
 
       {/* Call-to-action */}
       <div className="text-center mt-5">
-        <button className="btn btn-danger px-4 py-2 rounded-pill">Book a Consultation</button>
+        <button className="btn btn-danger px-4 py-2 rounded-pill" onClick={() => {
+                        const section = document.getElementById('bookappoinment');
+                        if (section) {
+                          section.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }}>Book a Consultation</button>
       </div>
     </div>
   );

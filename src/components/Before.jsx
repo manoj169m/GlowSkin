@@ -177,7 +177,6 @@ export default function Before() {
                 )}
               </div>
               <div className="card-body px-1 pt-3 pb-1">
-                <h6 className="text-center mb-0">{pair.title}</h6>
               </div>
             </div>
           </div>
