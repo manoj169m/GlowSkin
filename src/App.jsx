@@ -13,7 +13,7 @@ import FAQ from './components/FAQ';
 import Testimonials from './components/Testimonals';
 import Appointment from './components/Appoinment';
 import Before from './components/Before';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   const [showTopBtn, setShowTopBtn] = useState(false);
